@@ -1,13 +1,13 @@
 from functools import reduce
 
 def prime(no1):
-    is_prime = True
+    primeno = True
     for i in range(2,no1):
         if no1 % i == 0:
-            is_prime = False
+            primeno = False
             return False
             
-    if is_prime :
+    if primeno :
         return True
 
 def multiplication(value1):
